@@ -28,6 +28,7 @@
             colors: {
               clifford: "#da373d",
               "bike-primary": "#E76F51",
+              "banner-primary": "rgba(231, 111, 81, 0.1)",
             },
             fontFamily: {
               poppins: ["Poppins", "sans-serif"],
@@ -39,7 +40,7 @@
   </head>
   <body class="font-poppins">
     <!-- Header section  -->
-    <header class="md:container mx-auto">
+    <header class="md:w-4/5 mx-auto space-y-12">
       <!-- Nav bar  -->
       <nav>
         `
@@ -90,7 +91,84 @@
         </div>
 
       </nav>
-      <!-- banner  -->
+
+      <!-- Carousel/Slider section  -->
+       <div class="bg-banner-primary">
+        <div class="carousel w-full">
+
+          <!-- Slider-1  -->
+          <div id="slide1" class="carousel-item relative w-full ">
+            <div  class="flex flex-col md:flex-row md:justify-between items-center px-12 md:p-28 w-full space-y-10">
+              <!-- text  -->
+              <div class="space-y-6 ">
+                <h1 class="text-6xl font-bold leading-[75px]">Ride-on R15 V4 <br>with Smile</h1>
+                <p class="text-base font-light text-[rgba(0, 0, 0, 0.8) leading-7">Amet minim mollit non deserunt ullamco <br>
+                   est sit aliqua dolor do amet sint. Velit officia consequat
+                   <br> duis enim velit mollit.</p>
+                  <button class="btn bg-bike-primary text-xl font-medium text-white px-8">Purchase</button>
+              </div>
+              <!-- image  -->
+              <div>
+                <img
+              src="./images/slider/bike1.png"
+              class="w-full" />
+              </div>
+            </div>
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide3" class="text-5xl font-thin text-black">❮</a>
+              <a href="#slide2" class="text-5xl font-thin text-orange-400">❯</a>
+            </div>
+          </div>
+
+          <!-- Slider-2  -->
+          <div id="slide2" class="carousel-item relative w-full ">
+            <div  class="flex flex-col md:flex-row md:justify-between items-center px-12 md:p-28 w-full  space-y-10">
+              <!-- text  -->
+              <div class="md:w-1/2 space-y-6">
+                <h1 class="text-5xl font-bold leading-[75px]">Ride-on R15 V4 <br>with Smile</h1>
+                <p class="text-base font-light text-[rgba(0, 0, 0, 0.8) leading-7">Amet minim mollit non deserunt ullamco <br>
+                   est sit aliqua dolor do amet sint. Velit officia consequat
+                   <br> duis enim velit mollit.</p>
+                  <button class="btn bg-bike-primary text-xl font-medium text-white px-8">Purchase</button>
+              </div>
+              <!-- image  -->
+              <div>
+                <img
+              src="./images/slider/bike2.png"
+              class="w-full" />
+              </div>
+            </div>
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide1" class="text-5xl font-thin text-black">❮</a>
+              <a href="#slide3" class="text-5xl font-thin text-orange-400">❯</a>
+            </div>
+          </div>
+          
+          <!-- Slider-3  -->
+          <div id="slide3" class="carousel-item relative w-full ">
+            <div  class="flex flex-col md:flex-row md:justify-between items-center px-12 md:p-28 w-full  space-y-10">
+              <!-- text  -->
+              <div class=" space-y-6">
+                <h1 class="text-6xl font-bold leading-[75px]">Ride-on R15 V4 <br>with Smile</h1>
+                <p class="text-base font-light text-[rgba(0, 0, 0, 0.8) leading-7">Amet minim mollit non deserunt ullamco <br>
+                   est sit aliqua dolor do amet sint. Velit officia consequat
+                   <br> duis enim velit mollit.</p>
+                  <button class="btn bg-bike-primary text-xl font-medium text-white px-8">Purchase</button>
+              </div>
+              <!-- image  -->
+              <div>
+                <img
+              src="./images/slider/bike3.png"
+              class="w-full" />
+              </div>
+            </div>
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide2" class="text-5xl font-thin text-black">❮</a>
+              <a href="#slide1" class="text-5xl font-thin text-orange-400">❯</a>
+            </div>
+          </div>
+        </div>
+       </div>
     </header>
 
     <!-- Main section  -->
