@@ -40,7 +40,7 @@
   </head>
   <body class="font-poppins">
     <!-- Header section  -->
-    <header class="md:w-4/5 mx-auto space-y-12">
+    <header class="md:w-4/5 mx-auto space-y-12 mb-12  md:mb-40">
       <!-- Nav bar  -->
       <nav>
         `
@@ -93,7 +93,7 @@
       </nav>
 
       <!-- Carousel/Slider section  -->
-       <div class="bg-banner-primary">
+       <div class="bg-banner-primary pb-10">
         <div class="carousel w-full">
 
           <!-- Slider-1  -->
@@ -143,7 +143,7 @@
               <a href="#slide3" class="text-5xl font-thin text-orange-400">❯</a>
             </div>
           </div>
-          
+
           <!-- Slider-3  -->
           <div id="slide3" class="carousel-item relative w-full ">
             <div  class="flex flex-col md:flex-row md:justify-between items-center px-12 md:p-28 w-full  space-y-10">
@@ -172,8 +172,119 @@
     </header>
 
     <!-- Main section  -->
-    <main class="md:container mx-auto">
+    <main class="md:w-4/5 mx-auto">
+      <!-- Featured Bike section  -->
+       <section class="text-center md:mb-32 p-5">
+        <h2 class="text-5xl font-semibold leading-[72px]">Featured Bikes In This Year</h2>
+        <p class="text-sm font-semibold leading-[21px] text-orange-400">Best bike collection</p>
+        <!-- extra border  -->
+        <div class="w-14 mx-auto border-2 border-orange-400 mb-11"></div>
 
+        <!-- Image container  -->
+        <div class="grid gap-y-8 md:grid-cols-3 md:justify-between">
+          <div class="w-72 mx-auto"> 
+            <img src="./images/others/feature-bike.png" alt="">
+          </div>
+          <div class="w-72 mx-auto">
+            <img src="./images/others/feature-bike.png" alt="">
+          </div>
+          <div class="w-72 mx-auto">
+            <img src="./images/others/feature-bike.png" alt="">
+          </div>
+        </div>
+        
+       </section>
+
+       <!-- latest News section  -->
+       <section class="md:mb-32">
+        <h2 class="text-5xl text-center font-semibold leading-[72px] mb-12">Latest News</h2>
+        <!-- Card container  -->
+        <div class="grid lg:grid-cols-3 gap-7 items-center justify-center md:justify-between">
+
+          <!-- Card-1  -->
+          <div class="card bg-base-100 w-[365px] shadow-xl">
+            <figure class="px-5 pt-5">
+              <img
+                src="./images/others/latest1.png"
+                alt="Shoes"
+                class="rounded-xl" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+              <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <div class="card-actions">
+                <button class="btn bg-bike-primary">Read More</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card-2  -->
+          <div class="card bg-base-100 w-[365px] shadow-xl">
+            <figure class="px-5 pt-5">
+              <img
+                src="./images/others/latest2.png"
+                alt="Shoes"
+                class="rounded-xl" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Motorcycles & Scooters</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <div class="card-actions">
+                <button class="btn bg-bike-primary">Read More</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card-3  -->
+          <div class="card bg-base-100 w-[365px] shadow-xl">
+            <figure class="px-5 pt-5">
+              <img
+                src="./images/others/latest3.png"
+                alt="Shoes"
+                class="rounded-xl" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">2021 Honda CBR500R</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <div class="card-actions">
+                <button class="btn bg-bike-primary">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
+
+       <!-- Happy Clients section  -->
+       <section class="md:mb-32">
+        <h2 class="text-5xl text-center font-semibold leading-[72px] mb-12">Latest News</h2>
+        <!-- Card container  -->
+        <div class="grid lg:grid-cols-3 gap-7 items-center justify-center md:justify-between">
+
+          <!-- Card-1  -->
+          <div class="card bg-base-100 w-[365px] border">
+            <figure class="pt-7">
+              <div class="w-36 h-36">
+                <img
+                src="./images/others/user-1.png"
+                alt="Shoes"
+                 />
+              </div>
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+              <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <div class="card-actions">
+                <button class="btn bg-bike-primary">Read More</button>
+              </div>
+            </div>
+          </div>
+          
+
+          
+
+          
+        </div>
+       </section>
     </main>
 
     <!-- Footer section  -->
