@@ -488,12 +488,16 @@
       <!-- Frequently Asked Questions section  -->
 
       <section class="mb-12 md:mb-32">
-        <h2 class=" text-3xl md:text-5xl text-center mb-12 font-semibold leading-[50px]">
+        <h2
+          class="text-3xl md:text-5xl text-center mb-12 font-semibold leading-[50px]"
+        >
           Frequently Asked <span class="text-orange-400">Questions</span>
         </h2>
 
         <!-- Container  -->
-        <div class="flex flex-col md:flex-row justify-between gap-24">
+        <div
+          class="flex flex-col md:flex-row justify-between md:items-center gap-24"
+        >
           <img src="./images/others/faq.png" alt="faq" class="w-full px-5" />
 
           <!-- FAQ section  -->
@@ -522,7 +526,12 @@
                 How can I tell if my helmet is old and I need a new one?
               </div>
               <div class="collapse-content">
-                <p>Replace your helmet if it's over 5 years old, has visible damage, worn straps, or no longer fits well. Also, if it's been in an accident or doesn't meet current safety standards, get a new one to ensure proper protection.</p>
+                <p>
+                  Replace your helmet if it's over 5 years old, has visible
+                  damage, worn straps, or no longer fits well. Also, if it's
+                  been in an accident or doesn't meet current safety standards,
+                  get a new one to ensure proper protection.
+                </p>
               </div>
             </div>
 
@@ -533,7 +542,13 @@
                 How could I choose a perfect bike for me?
               </div>
               <div class="collapse-content">
-                <p>To choose the perfect bike, consider your riding style (e.g., road, mountain, commuting), ensure the frame size fits your height, check the bike's weight and components, and set a budget. Test ride a few models to find one that's comfortable and suits your needs.</p>
+                <p>
+                  To choose the perfect bike, consider your riding style (e.g.,
+                  road, mountain, commuting), ensure the frame size fits your
+                  height, check the bike's weight and components, and set a
+                  budget. Test ride a few models to find one that's comfortable
+                  and suits your needs.
+                </p>
               </div>
             </div>
 
@@ -544,16 +559,53 @@
                 How many times you need to provide all the bike's paper?
               </div>
               <div class="collapse-content">
-                <p>You'll need to provide all the bike's papers when registering it, selling it, or making an insurance claim. Keep these documents safe for such occasions.</p>
+                <p>
+                  You'll need to provide all the bike's papers when registering
+                  it, selling it, or making an insurance claim. Keep these
+                  documents safe for such occasions.
+                </p>
               </div>
             </div>
-
           </div>
         </div>
       </section>
     </main>
 
     <!-- Footer section  -->
-    <footer></footer>
+    <footer class="bg-black text-white pb-8 md:pb-20">
+      <!-- container  -->
+      <div class="md:w-4/5 mx-auto footer p-10 flex flex-col-reverse md:flex-row justify-between md:items-center">
+        <div class="space-y-10">
+          <div class="flex flex-col md:flex-row gap-6 border-b-4 md:border-none pb-3 border-yellow-300">
+            <a class="link link-hover">Branding</a>
+            <a class="link link-hover">Design</a>
+          </div>
+
+          <div class="flex flex-col md:flex-row gap-6 border-b-4 md:border-none pb-3 border-yellow-300">
+            <a class="link link-hover">Branding</a>
+            <a class="link link-hover">Design</a>
+            <a class="link link-hover">Marketing</a>
+            <a class="link link-hover">Advertisement</a>
+          </div>
+
+          <p>© 2020 bike. All rights reserved</p>
+        </div>
+
+        <nav class="">
+          <h6 class="text-lg font-medium leading-7">Get the App</h6>
+          <div class="grid grid-cols-1 gap-4">
+            <a>
+              <img src="./images/others/ios.png" alt="apple play store image" />
+            </a>
+            <a>
+              <img
+                src="./images/others/android.png"
+                alt="google play store image"
+              />
+            </a>
+          </div>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>
