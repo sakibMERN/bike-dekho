@@ -40,7 +40,7 @@
   </head>
   <body class="font-poppins">
     <!-- Header section  -->
-    <header class="md:w-4/5 mx-auto space-y-12 mb-12  md:mb-40">
+    <header class="md:w-4/5 mx-auto space-y-12 mb-12 md:mb-40">
       <!-- Nav bar  -->
       <nav>
         `
@@ -65,7 +65,7 @@
               </div>
               <ul
                 tabindex="0"
-                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+                class="menu menu-sm dropdown-content bg-black text-white rounded-box z-[1] mt-3 w-52 p-2 shadow"
               >
                 <li><a>Home</a></li>
                 <li><a>Shop</a></li>
@@ -73,10 +73,10 @@
                 <li><a>Contact</a></li>
               </ul>
             </div>
-            <a class="text-4xl font-bold leading-[53px] ">Bike Dekho</a>
+            <a class="text-4xl font-bold leading-[53px]">Bike Dekho</a>
           </div>
           <div class="">
-            <div class=" hidden lg:flex">
+            <div class="hidden lg:flex">
               <ul class="menu menu-horizontal px-1">
                 <li><a>Home</a></li>
                 <li><a>Shop</a></li>
@@ -89,131 +89,180 @@
             </div>
           </div>
         </div>
-
       </nav>
 
       <!-- Carousel/Slider section  -->
-       <div class="bg-banner-primary pb-10">
+      <div class="bg-banner-primary pb-10">
         <div class="carousel w-full">
-
           <!-- Slider-1  -->
-          <div id="slide1" class="carousel-item relative w-full ">
-            <div  class="flex flex-col md:flex-row md:justify-between items-center px-12 md:p-28 w-full space-y-10">
+          <div id="slide1" class="carousel-item relative w-full">
+            <div
+              class="flex flex-col md:flex-row md:justify-between items-center px-12 md:p-28 w-full space-y-10"
+            >
               <!-- text  -->
-              <div class="space-y-6 ">
-                <h1 class="text-6xl font-bold leading-[75px]">Ride-on R15 V4 <br>with Smile</h1>
-                <p class="text-base font-light text-[rgba(0, 0, 0, 0.8) leading-7">Amet minim mollit non deserunt ullamco <br>
-                   est sit aliqua dolor do amet sint. Velit officia consequat
-                   <br> duis enim velit mollit.</p>
-                  <button class="btn bg-bike-primary text-xl font-medium text-white px-8">Purchase</button>
+              <div class="space-y-6">
+                <h1 class="text-6xl font-bold leading-[75px]">
+                  Ride-on R15 V4 <br />with Smile
+                </h1>
+                <p
+                  class="text-base font-light text-[rgba(0, 0, 0, 0.8) leading-7"
+                >
+                  Amet minim mollit non deserunt ullamco <br />
+                  est sit aliqua dolor do amet sint. Velit officia consequat
+                  <br />
+                  duis enim velit mollit.
+                </p>
+                <button
+                  class="btn bg-bike-primary text-xl font-medium text-white px-8"
+                >
+                  Purchase
+                </button>
               </div>
               <!-- image  -->
               <div>
-                <img
-              src="./images/slider/bike1.png"
-              class="w-full" />
+                <img src="./images/slider/bike1.png" class="w-full" />
               </div>
             </div>
-            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <div
+              class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+            >
               <a href="#slide3" class="text-5xl font-thin text-black">❮</a>
               <a href="#slide2" class="text-5xl font-thin text-orange-400">❯</a>
             </div>
           </div>
 
           <!-- Slider-2  -->
-          <div id="slide2" class="carousel-item relative w-full ">
-            <div  class="flex flex-col md:flex-row md:justify-between items-center px-12 md:p-28 w-full  space-y-10">
+          <div id="slide2" class="carousel-item relative w-full">
+            <div
+              class="flex flex-col md:flex-row md:justify-between items-center px-12 md:p-28 w-full space-y-10"
+            >
               <!-- text  -->
               <div class="md:w-1/2 space-y-6">
-                <h1 class="text-5xl font-bold leading-[75px]">Ride-on R15 V4 <br>with Smile</h1>
-                <p class="text-base font-light text-[rgba(0, 0, 0, 0.8) leading-7">Amet minim mollit non deserunt ullamco <br>
-                   est sit aliqua dolor do amet sint. Velit officia consequat
-                   <br> duis enim velit mollit.</p>
-                  <button class="btn bg-bike-primary text-xl font-medium text-white px-8">Purchase</button>
+                <h1 class="text-5xl font-bold leading-[75px]">
+                  Ride-on R15 V4 <br />with Smile
+                </h1>
+                <p
+                  class="text-base font-light text-[rgba(0, 0, 0, 0.8) leading-7"
+                >
+                  Amet minim mollit non deserunt ullamco <br />
+                  est sit aliqua dolor do amet sint. Velit officia consequat
+                  <br />
+                  duis enim velit mollit.
+                </p>
+                <button
+                  class="btn bg-bike-primary text-xl font-medium text-white px-8"
+                >
+                  Purchase
+                </button>
               </div>
               <!-- image  -->
               <div>
-                <img
-              src="./images/slider/bike2.png"
-              class="w-full" />
+                <img src="./images/slider/bike2.png" class="w-full" />
               </div>
             </div>
-            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <div
+              class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+            >
               <a href="#slide1" class="text-5xl font-thin text-black">❮</a>
               <a href="#slide3" class="text-5xl font-thin text-orange-400">❯</a>
             </div>
           </div>
 
           <!-- Slider-3  -->
-          <div id="slide3" class="carousel-item relative w-full ">
-            <div  class="flex flex-col md:flex-row md:justify-between items-center px-12 md:p-28 w-full  space-y-10">
+          <div id="slide3" class="carousel-item relative w-full">
+            <div
+              class="flex flex-col md:flex-row md:justify-between items-center px-12 md:p-28 w-full space-y-10"
+            >
               <!-- text  -->
-              <div class=" space-y-6">
-                <h1 class="text-6xl font-bold leading-[75px]">Ride-on R15 V4 <br>with Smile</h1>
-                <p class="text-base font-light text-[rgba(0, 0, 0, 0.8) leading-7">Amet minim mollit non deserunt ullamco <br>
-                   est sit aliqua dolor do amet sint. Velit officia consequat
-                   <br> duis enim velit mollit.</p>
-                  <button class="btn bg-bike-primary text-xl font-medium text-white px-8">Purchase</button>
+              <div class="space-y-6">
+                <h1 class="text-6xl font-bold leading-[75px]">
+                  Ride-on R15 V4 <br />with Smile
+                </h1>
+                <p
+                  class="text-base font-light text-[rgba(0, 0, 0, 0.8) leading-7"
+                >
+                  Amet minim mollit non deserunt ullamco <br />
+                  est sit aliqua dolor do amet sint. Velit officia consequat
+                  <br />
+                  duis enim velit mollit.
+                </p>
+                <button
+                  class="btn bg-bike-primary text-xl font-medium text-white px-8"
+                >
+                  Purchase
+                </button>
               </div>
               <!-- image  -->
               <div>
-                <img
-              src="./images/slider/bike3.png"
-              class="w-full" />
+                <img src="./images/slider/bike3.png" class="w-full" />
               </div>
             </div>
-            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <div
+              class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+            >
               <a href="#slide2" class="text-5xl font-thin text-black">❮</a>
               <a href="#slide1" class="text-5xl font-thin text-orange-400">❯</a>
             </div>
           </div>
         </div>
-       </div>
+      </div>
     </header>
 
     <!-- Main section  -->
     <main class="md:w-4/5 mx-auto">
       <!-- Featured Bike section  -->
-       <section class="text-center md:mb-32 p-5">
-        <h2 class="text-5xl font-semibold leading-[72px]">Featured Bikes In This Year</h2>
-        <p class="text-sm font-semibold leading-[21px] text-orange-400">Best bike collection</p>
+      <section class="text-center md:mb-32 p-5">
+        <h2 class="text-5xl font-semibold leading-[72px]">
+          Featured Bikes In This Year
+        </h2>
+        <p class="text-sm font-semibold leading-[21px] text-orange-400">
+          Best bike collection
+        </p>
         <!-- extra border  -->
         <div class="w-14 mx-auto border-2 border-orange-400 mb-11"></div>
 
         <!-- Image container  -->
         <div class="grid gap-y-8 md:grid-cols-3 md:justify-between">
-          <div class="w-72 mx-auto"> 
-            <img src="./images/others/feature-bike.png" alt="">
+          <div class="w-72 mx-auto">
+            <img src="./images/others/feature-bike.png" alt="" />
           </div>
           <div class="w-72 mx-auto">
-            <img src="./images/others/feature-bike.png" alt="">
+            <img src="./images/others/feature-bike.png" alt="" />
           </div>
           <div class="w-72 mx-auto">
-            <img src="./images/others/feature-bike.png" alt="">
+            <img src="./images/others/feature-bike.png" alt="" />
           </div>
         </div>
-        
-       </section>
+      </section>
 
-       <!-- latest News section  -->
-       <section class="md:mb-32">
-        <h2 class="text-5xl text-center font-semibold leading-[72px] mb-12">Latest News</h2>
+      <!-- latest News section  -->
+      <section class="mb-12 md:mb-32">
+        <h2 class="text-5xl text-center font-semibold leading-[72px] mb-12">
+          Latest News
+        </h2>
         <!-- Card container  -->
-        <div class="grid lg:grid-cols-3 gap-7 items-center justify-center md:justify-between">
-
+        <div
+          class="grid lg:grid-cols-3 gap-7 items-center justify-center md:justify-between"
+        >
           <!-- Card-1  -->
           <div class="card bg-base-100 w-[365px] shadow-xl">
             <figure class="px-5 pt-5">
               <img
                 src="./images/others/latest1.png"
                 alt="Shoes"
-                class="rounded-xl" />
+                class="rounded-xl"
+              />
             </figure>
             <div class="card-body">
               <h2 class="card-title">Ducati XDIAVEL S-73</h2>
-              <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <p class="">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
               <div class="card-actions">
-                <button class="btn bg-bike-primary">Read More</button>
+                <button class="btn bg-bike-primary text-white">
+                  Read More
+                </button>
               </div>
             </div>
           </div>
@@ -224,13 +273,21 @@
               <img
                 src="./images/others/latest2.png"
                 alt="Shoes"
-                class="rounded-xl" />
+                class="rounded-xl"
+              />
             </figure>
             <div class="card-body">
               <h2 class="card-title">Motorcycles & Scooters</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
               <div class="card-actions">
-                <button class="btn bg-bike-primary">Read More</button>
+                <button
+                  class="btn bg-white border-1 border-orange-400 text-orange-400"
+                >
+                  Read More
+                </button>
               </div>
             </div>
           </div>
@@ -241,50 +298,259 @@
               <img
                 src="./images/others/latest3.png"
                 alt="Shoes"
-                class="rounded-xl" />
+                class="rounded-xl"
+              />
             </figure>
             <div class="card-body">
               <h2 class="card-title">2021 Honda CBR500R</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
               <div class="card-actions">
-                <button class="btn bg-bike-primary">Read More</button>
+                <button
+                  class="btn bg-white border-1 border-orange-400 text-orange-400"
+                >
+                  Read More
+                </button>
               </div>
             </div>
           </div>
         </div>
-       </section>
+      </section>
 
-       <!-- Happy Clients section  -->
-       <section class="md:mb-32">
-        <h2 class="text-5xl text-center font-semibold leading-[72px] mb-12">Latest News</h2>
+      <!-- Happy Clients section  -->
+      <section class="mb-12 md:mb-32">
+        <h2 class="text-5xl text-center font-semibold leading-[72px] mb-12">
+          Happy <span class="text-orange-400">Clients says</span>
+        </h2>
         <!-- Card container  -->
-        <div class="grid lg:grid-cols-3 gap-7 items-center justify-center md:justify-between">
-
+        <div
+          class="grid lg:grid-cols-3 gap-7 items-center justify-center md:justify-between"
+        >
           <!-- Card-1  -->
-          <div class="card bg-base-100 w-[365px] border">
+          <div class="card bg-base-100 w-[365px] border mb-8">
             <figure class="pt-7">
               <div class="w-36 h-36">
-                <img
-                src="./images/others/user-1.png"
-                alt="Shoes"
-                 />
+                <img src="./images/others/user-1.png" alt="Shoes" />
               </div>
             </figure>
-            <div class="card-body">
-              <h2 class="card-title">Ducati XDIAVEL S-73</h2>
-              <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
-              <div class="card-actions">
-                <button class="btn bg-bike-primary">Read More</button>
+            <div class="card-body text-center">
+              <p class="tracking-[0.2px] mb-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+
+              <!-- Ratings  -->
+              <div class="rating justify-center mb-4">
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked="checked"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked="checked"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked="checked"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
               </div>
+
+              <p class="text-sm text-[#23A6F0] font-semibold leading-[24px]">
+                Jams Huck
+              </p>
+              <p class="text-sm font-semibold leading-[24px]">Banker</p>
             </div>
           </div>
-          
 
-          
+          <!-- Card-2  -->
+          <div class="card bg-base-100 w-[365px] border mb-8">
+            <figure class="pt-7">
+              <div class="w-36 h-36">
+                <img src="./images/others/user-2.png" alt="Shoes" />
+              </div>
+            </figure>
+            <div class="card-body text-center">
+              <p class="tracking-[0.2px] mb-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
 
-          
+              <!-- Ratings  -->
+              <div class="rating justify-center mb-4">
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked="checked"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked="checked"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked="checked"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+
+              <p class="text-sm text-[#23A6F0] font-semibold leading-[24px]">
+                Stiffen Robart
+              </p>
+              <p class="text-sm font-semibold leading-[24px]">Businessman</p>
+            </div>
+          </div>
+          <!-- Card- 3 -->
+          <div class="card bg-base-100 w-[365px] border mb-8">
+            <figure class="pt-7">
+              <div class="w-36 h-36">
+                <img src="./images/others/user-3.png" alt="Shoes" />
+              </div>
+            </figure>
+            <div class="card-body text-center">
+              <p class="tracking-[0.2px] mb-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+
+              <!-- Ratings  -->
+              <div class="rating justify-center mb-4">
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked="checked"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked="checked"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked="checked"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+
+              <p class="text-sm text-[#23A6F0] font-semibold leading-[24px]">
+                Sara Cook
+              </p>
+              <p class="text-sm font-semibold leading-[24px]">Shopkeeper</p>
+            </div>
+          </div>
         </div>
-       </section>
+      </section>
+
+      <!-- Frequently Asked Questions section  -->
+
+      <section>
+        <h2 class="text-5xl text-center mb-12 font-semibold leading-[50px]">
+          Frequently Asked <span class="text-orange-400">Questions</span>
+        </h2>
+
+        <!-- Container  -->
+        <div class="flex flex-col md:flex-row justify-between gap-24">
+          <img src="./images/others/faq.png" alt="faq" />
+
+          <!-- FAQ section  -->
+          <div>
+            <!-- Question - 1  -->
+            <div class="collapse collapse-arrow bg-base-200">
+              <input type="radio" name="my-accordion-1" checked="checked" />
+              <div class="collapse-title text-xl font-medium">
+                What are the most important things I should know about riding a
+                bike?
+              </div>
+              <div class="collapse-content">
+                <p>
+                  Safety First! Always obey the rules of the road. Obey all
+                  traffic signals, signs, and laws. Get in the mindset of
+                  “driving” your bike—not just “riding” your bike. This will
+                  help you be a more focused and legally compliant bike rider.
+                </p>
+              </div>
+            </div>
+
+            <!-- Question - 2  -->
+            <div class="collapse collapse-arrow bg-base-200">
+              <input type="radio" name="my-accordion-1" />
+              <div class="collapse-title text-xl font-medium">
+                How can I tell if my helmet is old and I need a new one?
+              </div>
+              <div class="collapse-content">
+                <p>Replace your helmet if it's over 5 years old, has visible damage, worn straps, or no longer fits well. Also, if it's been in an accident or doesn't meet current safety standards, get a new one to ensure proper protection.</p>
+              </div>
+            </div>
+
+            <!-- Question - 3  -->
+            <div class="collapse collapse-arrow bg-base-200">
+              <input type="radio" name="my-accordion-1" />
+              <div class="collapse-title text-xl font-medium">
+                How could I choose a perfect bike for me?
+              </div>
+              <div class="collapse-content">
+                <p>To choose the perfect bike, consider your riding style (e.g., road, mountain, commuting), ensure the frame size fits your height, check the bike's weight and components, and set a budget. Test ride a few models to find one that's comfortable and suits your needs.</p>
+              </div>
+            </div>
+
+            <!-- Question - 4  -->
+            <div class="collapse collapse-arrow bg-base-200">
+              <input type="radio" name="my-accordion-1" />
+              <div class="collapse-title text-xl font-medium">
+                How many times you need to provide all the bike's paper?
+              </div>
+              <div class="collapse-content">
+                <p>You'll need to provide all the bike's papers when registering it, selling it, or making an insurance claim. Keep these documents safe for such occasions.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- Footer section  -->
